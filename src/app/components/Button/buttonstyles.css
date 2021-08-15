@@ -1,0 +1,15 @@
+.button {
+  font-size: 16px;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  color: var(--white);
+  border-radius: 6px;
+  border-color: transparent;
+
+  background-color: var(--primary-blue);
+}
+
+.secondary {
+  background-color: var(--secondary-red);
+}

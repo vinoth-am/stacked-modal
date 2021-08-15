@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+## Deployed URL 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Public : https://vinoth-am.github.io/stacked-modal
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To run the application node and yarn needs to be installed on the local machine.
 
-### `yarn start`
+Clone the repo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```sh
+git clone https://github.com/vinoth-am/stacked-modal.git
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Install the dependencies using yarn package manager
 
-### `yarn test`
+```sh
+yarn add
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run the app
 
-### `yarn build`
+```sh
+yarn start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open the below URL to view it in the browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Local : http://localhost:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Folder Structure
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+.src
+├── app
+│   ├── components
+│   │   ├── Button
+│   │   │   ├── Button.js
+│   │   │   ├── Buttton.test.js
+│   │   │   ├── Buttton.test.js.snap
+│   │   │   └── buttonstyles.css
+│   │   ├── CloseButton
+│   │   │   ├── CloseButton.js
+│   │   │   ├── CloseButton.test.js
+│   │   │   ├── CloseButton.test.js.snap
+│   │   │   └── closebutton.css
+│   │   └── Modal
+│   │       ├── StackedModal.js
+│   │       ├── StackedModal.test.js
+│   │       ├── StackedModal.test.js.snap
+│   │       └── modalstyles.css
+│   └── Screens
+│       ├──Header
+│       │   ├── Header.js
+│       │   └── headerstyles.css
+│       └── Home.js
+├── asset
+│   └── colors.css
+├── constants
+│   └── index.ts
+├── context
+│   ├── ModalContext.js
+│   └── modalcontext.css
+├── utils
+│   └── index.ts
+├── App.js
+├── App.test.js
+├── App.test.js.snap
+├── index.js
+└── README.md
+```

@@ -1,0 +1,34 @@
+.modal {
+  border: 1px solid var(--light-shade-grey);
+  border-radius: 5px;
+  background: var(--white);
+}
+
+.modal-position {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-shadow {
+  box-shadow: -30px 30px 30px var(--light-white);
+}
+
+.modal-header {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--dark-shade-grey);
+}
+
+.modal h2 {
+  padding: 16px;
+  margin: 0;
+}
+
+.modal-content {
+  padding: 16px;
+  height: 50px;
+}

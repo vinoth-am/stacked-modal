@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-left {
+  margin: 15px;
+}
+
+.header-right {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
